@@ -8,8 +8,7 @@ const client = new Client({
     ]
 })
 
-// client.login("MTA5Njg3NTE4NjMyMzczODY5NQ.GXcO6T.NWbhxQ110ZuxT2iBteztsjM2LDMzdm6GtVgkhc")
-client.login("MTA5Njg4NDMyNDk0MDM4MjI2OA.GZFb0a.2lOAoEL3zVin_PcvidIaFs4RjDEFsNP1x-A0Vg")
+// Add Id Here
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`)
